@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Beginning of the main function")
-
+	fmt.Println("Exp with gcommands")
 	channel := make(chan int, 2)
 
 	channel <- 10
